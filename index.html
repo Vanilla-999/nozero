@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NOZERO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>NOZERO</h1>
+    <p class="subtitle">From zero to something.</p>
+
+    <div class="card">
+      <p class="question">How do you feel right now?</p>
+
+      <div class="buttons">
+        <button onclick="setMood('low')">😵 Zero</button>
+        <button onclick="setMood('mid')">😐 Meh</button>
+        <button onclick="setMood('good')">😎 Good</button>
+      </div>
+
+      <p id="task" class="task"></p>
+
+      <button id="startBtn" onclick="startTimer()">Start 15 min</button>
+      <p id="timer" class="timer"></p>
+    </div>
+
+    <footer>© 2026 NOZERO</footer>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
